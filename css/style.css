@@ -1,15 +1,11 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; 
-}
+
 
 body{
   width: 80%;
 }
 
 .pattern{
-    background-color: lightblue;
+    background-color: #4EA0FF;
     width: 100%;
     height: 100px;
     background-image: url("../img/pattern.png");
@@ -23,21 +19,89 @@ body{
     width: 200px;
   }
 
-  #title{
-    margin-top: 10px;
-    margin-left: 10px;
-
   #author{
-    color: grey;
+    color: #878787;
   }
 
   #booleaner{
-    color: lightskyblue;
+    color: #4AB9EA;
   }
 
   #data{
     font-size: 70%;
   }
+
+  #description > p{
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .row_title_table{
+    width: 100%;
+    height: 30px;
+    background-color:#20A9E5;
+    color: white;
+  }
+
+  .int_row_sx{
+    margin: 0;
+    width: 25%;
+    float: left;
+  }
+
+  .int_row_center{
+    margin: 0;
+    width: 25%;
+    float: left;
+  }
+
+  .int_row_dx{
+    margin: 0;
+    width: 48%;
+    float: left;
+  }
+  
+
+  .row_body{
+    width: 100%;
+    height: 60px;
+    background-color: #B1E5F2;
+  }
+
+  .row_body_no_color{
+    width: 100%;
+    height: 60px;
+  }
+
+  #interest{
+    color: #878787;
+  }
+
+  .interest_img_monitor{
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    background-image: url("../img/monitor.jpg");
+  }
+
+  .interest_img_graph{
+    width: 300px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    background-image: url("../img/graph.jpg");
+  }
+
+  
+
+  
+
+  
+
+ 
 
 
 
