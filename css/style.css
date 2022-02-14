@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body{
+  width: 80%;
+}
+
+.pattern{
+    background-color: lightblue;
+    width: 100%;
+    height: 100px;
+    background-image: url("../img/pattern.png");
+    background-size: 400px ;
+  }
+
+  .pattern > img{
+    position: relative;
+    top: 40%;
+    left: 10px;
+    width: 200px;
+  }
+
+  #title{
+    margin-top: 10px;
+    margin-left: 10px;
+
+  #author{
+    color: grey;
+  }
+
+  #booleaner{
+    color: lightskyblue;
+  }
+
+  #data{
+    font-size: 70%;
+  }
+
+
+
